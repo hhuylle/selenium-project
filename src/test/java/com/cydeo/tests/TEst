@@ -1,0 +1,40 @@
+
+
+<a href="https://tesla.com" name='uh68' class='ff58' id='bb22'>TESLA CYBERTRUCK</a>
+    //tagName[@attribute='value']
+
+//a[@name='uh68']
+
+//a[@class='ff58']
+
+//a[@id='bb22']
+
+//a[@href='https://tesla.com']
+
+//a[.='TESLA CYBERTRUCK']
+
+Commonly used Xpath Locators:
+
+#1: //tagName[@attribute='value']
+#2: //tagName[contains(@attribute, 'value')]
+#3: //tagName[text()='text']
+#4: //*[@attribute='value']
+    div<for='randomV12']
+
+create properties object: Properties properties = new Properties();
+, and then use FileInputStream to open file in
+the java memory: FileInputStream file = new FileInputStream();
+, and then load the file into properties object: properties.load(file);
+, and then use properties object to read value of keys with load:
+    properties.getProperty("key");
+
+create private constructor: private Driver(){}
+create private variable or object: private WebDriver driver;
+create getter method to deliver object in the way we want to deliver:
+    public static WebDriver getDriver(){
+        if(driver == null){
+            //create something
+        }
+
+        return driver;
+    }
