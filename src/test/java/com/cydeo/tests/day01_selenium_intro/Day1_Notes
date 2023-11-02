@@ -18,7 +18,7 @@ Selenium Day 01
 	- MARK UP TAGS
 
 3- What is a mark up TAG?
-	- It acts like a container.
+	- It acts like a container IN HTML.
 	- Tags will determine the behavior of a web element.
 
 
@@ -58,16 +58,14 @@ Selenium Day 01
 
 ===========================================================================
 6- What is attribute?
-	- Attributes provide additional information about specific web element.
-    - Attributes go inside of the OPENING TAG ONLY. 
-    - If it is an unpaired tag/self closing tag it will go inside of the tag itself.
-    - A web element can have as many attributes as needed. Number is not limited.
+ - Attributes provide additional information about specific web element.
+ - Attributes go inside of the OPENING TAG ONLY. 
+ - If it is an unpaired tag/self closing tag it will go inside of the tag itself.
+ - A web element can have as many attributes as needed. Number is not limited.
 
-ex: 
-    <div style="color:red;"> content </div>
-    
-    <img src="cyberTruckimage.png">
-
+ex:
+<div style="color:red;"> content </div>
+ <img src="cyberTruckimage.png">
 
 	<a href="https://www.google.com"> google </a>
 	</img src="">
@@ -76,14 +74,14 @@ ex: 
 
 PRACTICE:
 
-    <a href="https://www.etsy.com"> ETSY - SELL YOUR COOKIES </a>
-	<-----------opening tag-------> 						 </closingTag>
+ <a href="https://www.etsy.com"> ETSY - SELL YOUR COOKIES </a>
+<-----------opening tag-------> 					 </closingTag>
 
 #1- WHAT IS THE TEXT OF THIS TAG? WHAT IS THE CONTENT, WHAT IS DISPLAYED ON THE PAGE?
 
 -->	"ETSY - SELL YOUR COOKIES"
 
-#2- WHAT IS THE ATTIRBUTE OF THIS WEB ELEMENT?
+#2- WHAT IS THE ATTRIBUTE OF THIS WEB ELEMENT?
 
 -->	href
 
@@ -106,7 +104,8 @@ BLACK	: TEXT OF THE WEB ELEMENT
 
 
 ===========================================================================
-
+What is Selenium?
+    - A open source library to help us to write test methods
 What is Maven?
 	- A "build" automation tool.
 

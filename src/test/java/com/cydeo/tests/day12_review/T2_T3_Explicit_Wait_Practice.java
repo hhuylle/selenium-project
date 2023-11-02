@@ -38,7 +38,7 @@ public class T2_T3_Explicit_Wait_Practice {
         //Use 'wait' object with the proper syntax explicit wait conditions
         //wait.until(ExpectedConditions.invisibilityOf(dynamicControlsPage.loadingBar));
 
-        //Using the costom utility method 'waitForInvisibilityOf' to wait loadingBar disappears
+        //Using the custom utility method 'waitForInvisibilityOf' to wait loadingBar disappears
         BrowserUtils.waitForInvisibilityOf(dynamicControlsPage.loadingBar);
 
         //5- Verify:

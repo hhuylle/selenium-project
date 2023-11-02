@@ -10,7 +10,9 @@ import java.time.Duration;
 public class Driver {
 
     //create a private constructor to remove access to this object
-    private Driver(){}
+    private Driver(){
+
+    }
 
      /*
     We make the WebDriver private, because we want to close access from outside the class.

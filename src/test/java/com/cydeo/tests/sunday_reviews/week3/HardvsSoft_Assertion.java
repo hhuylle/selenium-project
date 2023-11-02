@@ -87,16 +87,12 @@ public class HardvsSoft_Assertion {
         String actualResultText = resultText.getText();
         System.out.println("resultText.getText() = " + resultText.getText());
 
-        System.out.println("resultText.getText() = " + resultText.getText());
+        //System.out.println("resultText.getText() = " + resultText.getText());
 
         softAssert.assertTrue(actualResultText.contains(expectedResultText));
 
         // We have to use assertAll() method at the end of Text method to execute all assertions
         softAssert.assertAll();
-
-
-
-
 
         // 6. Verify text displayed on page
         //    Expected: "You logged into a secure area!"

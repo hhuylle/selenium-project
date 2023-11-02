@@ -369,9 +369,12 @@ P12_WRITE A LOCATOR THAT RETURNS ALL EMAILS THAT HAS $50 DUE AMOUNT
 
 UTILITIES
 
-- We create utility methods when there is a certain logic that is repeating itself and we want to automate it by having a re-usable utility method.
+- We create utility methods when there is a certain logic that is repeating
+itself and we want to automate it by having a re-usable utility method.
 
 - We are going to have different layers of Utility methods.
 - Some utility methods are going to be used across the project.
-    - BrowserUtility : this class will store utility methods that can be used across the project.
-    - Login : More page specific utility methods will be stored in their own classes.
+    - BrowserUtility : this class will store utility methods that can be used
+     across the project.
+    - Login : More page specific utility methods will be stored in their own
+     classes.

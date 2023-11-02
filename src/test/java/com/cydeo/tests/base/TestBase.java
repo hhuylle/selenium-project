@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 // This class is the parent if all Test classes
-// You will update this class based on what you are keep writing in your most test classes instead writing in all test classes, you just write in this class, and you can extend this class from any class
+// You will update this t classes instead writing in all test classes, you just write in this class, and you can extend this class from any classclass based on what you are keep writing in your most tes
 public abstract class TestBase { // This class abstract because preventing to create objects
 
     protected WebDriver driver;
